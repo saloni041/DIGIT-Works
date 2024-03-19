@@ -4,162 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1720a5be-f7ee-4325-93bb-851facec204d" name="Changes" comment="">
+    <list default="true" id="1720a5be-f7ee-4325-93bb-851facec204d" name="Changes" comment="Flutter Assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/Env/app_config.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/Env/env_config.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_bloc_observer.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_initilization/app_initilization.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_initilization/app_initilization.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_initilization/app_version_bloc.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_initilization/app_version_bloc.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_initilization/home_screen_bloc.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/app_initilization/home_screen_bloc.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/auth/auth.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/auth/auth.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/auth/otp_bloc.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/auth/otp_bloc.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/bnd/create_birth_bloc.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/bnd/create_birth_bloc.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/bnd/search_birth_certificate_bloc.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/bnd/search_birth_certificate_bloc.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/localization/app_localization.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/localization/app_localizations_delegate.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/localization/localization.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/localization/localization.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/localization/selected_localization_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/localization/selected_localization_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/user/user_search.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/blocs/user/user_search.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/init_client.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/remote/localization_client.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/remote/localization_client.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/remote_client.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/auth_repository/auth.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/bnd-repository/bnd_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/common_repository/common_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/core_repo/core_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/remote/getGlobalConfig_repo.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/remote/localization.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/remote/mdms.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/data/repositories/user_search_repository/user_search.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/icons/shg_icons.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/app_config/app_config_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/app_config/app_config_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/app_config/app_config_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/birth_certificates_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/birth_certificates_model.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_address_details.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_address_details.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_details.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_details.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_father_details.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_father_details.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_mother_details.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/child_mother_details.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/create_birth_response.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/create-birth-registration/create_birth_response.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/file_store/file_store_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/file_store/file_store_model.mapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/init_mdms/global_config_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/init_mdms/global_config_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/init_mdms/global_config_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/init_mdms/init_mdms_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/init_mdms/init_mdms_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/init_mdms/init_mdms_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/localization/localization_label.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/localization/localization_label.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/localization/localization_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/localization/localization_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/localization/localization_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/mdms/location_mdms.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/mdms/location_mdms.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/mdms/location_mdms.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/request_info/request_info_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/request_info/request_info_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/request_info/request_info_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/screen_config/home_screen_config.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/screen_config/home_screen_config.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/screen_config/home_screen_config.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/table/table_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/table/table_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/table/table_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/user_details/user_details_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/user_details/user_details_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/user_details/user_details_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/user_search/user_search_model.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/user_search/user_search_model.freezed.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/models/user_search/user_search_model.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/authenticated.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/birth-registration/birth_search_inbox.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/birth-registration/create_birth_registration.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/birth-registration/view_birth_certificates.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/home.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/language_selection_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/login.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/pages/unauthenticated.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/router/app_navigator_observer.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/router/app_router.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/router/app_router.gr.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/services/local_storage.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/services/urls.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/theme.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/Toast/toast_animation.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/Toast/toaster.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/common_methods.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/common_widgets.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/constants.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/date_formats.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/global_variables.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/localization_constants/i18_key_constants.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/models.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/models/file_picker_data.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/notifiers.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/save_file_mobile.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/save_file_web.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/utils/string_extension.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/Back.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/ButtonLink.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/CircularButton.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/FormWrapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/LabelText.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/ScrollParent.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/SideBar.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/WorkDetailsCard.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/app_bar_logo.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/app_logo.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/attachments.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/auto_complete_search_bar.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/back_navigation_help_header.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/background_container.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/button_group.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/custom_details.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/custom_info_card.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/date_range_picker.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/delete_button.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/digit_base_stepper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/digit_indicator.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/digit_timeline.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/empty_image.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/multiselect_checkbox.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/radio_button_list.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/resend_otp.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/sub_label.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/success_message.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/table_dropdown.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/atoms/tabs_button.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/drawer_wrapper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/loaders.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/desktop_view.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/digit_reactive_type_ahead.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/digit_search_dropdown.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/digit_stepper.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/digit_table.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/file_picker.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/mobile_view.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/lib/widgets/molecules/success_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/flutter_training/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/flutter_training/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,18 +30,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/admin1/Documents/Github/DIGIT-Works&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/home/admin1/Documents/Github/DIGIT-Works",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/flutter_training" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/frontend/flutter_training/lib/main.dart" />
@@ -216,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710840882306</updated>
     </task>
+    <task id="LOCAL-00001" summary="Flutter Assignment">
+      <option name="closed" value="true" />
+      <created>1710841562178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710841562178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Flutter Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flutter Assignment" />
   </component>
 </project>
